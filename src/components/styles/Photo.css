@@ -1,0 +1,103 @@
+.rem-button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background: #e62222;
+}
+
+.rem-button button span {
+  transition: 200ms;
+}
+
+.rem-button .text {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+}
+.rem-button:hover {
+  background: #ff3636;
+}
+
+.rem-button:active {
+  transform: scale(0.97);
+}
+
+.button {
+  background-color: #727be0;
+  border: none;
+  font-size: 14px;
+  width: 10%;
+  border-radius: 1px;
+  color: white;
+  box-shadow: 0 0.4rem #5d64b9;
+  cursor: pointer;
+  margin-right: 2%;
+}
+
+.button-r {
+  background-color: #727be0;
+  border: none;
+  height: 30px;
+  font-size: 14px;
+  width: 90px;
+  border-radius: 1px;
+  color: white;
+  box-shadow: 0 0.4rem #5d64b9;
+  cursor: pointer;
+  margin-right: 2px;
+}
+.button:hover,
+button:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  -webkit-transform: translate(0px, 2px);
+  -ms-transform: translate(0px, 2px);
+  transform: translate(0px, 2px);
+}
+
+.button-r:hover,
+button:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  -webkit-transform: translate(0px, 2px);
+  -ms-transform: translate(0px, 2px);
+  transform: translate(0px, 2px);
+}
+
+.button:disabled {
+  cursor: auto;
+  color: grey;
+}
+
+.temp-btn {
+  padding: 2% 4%;
+  margin: 0px 10px 10px 0px;
+  border-radius: 3px;
+  font-size: 100%;
+  color: #fff;
+  text-decoration: none;
+  background-color: #727be0;
+  border: none;
+  border-bottom: 5px solid #5d64b9;
+  text-shadow: 0px -2px #727be0;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.temp-btn:hover,
+button:active {
+  -webkit-transform: translate(0px, 5px);
+  -ms-transform: translate(0px, 5px);
+  transform: translate(0px, 5px);
+}
+
+.temp {
+  color: #5d64b9;
+}

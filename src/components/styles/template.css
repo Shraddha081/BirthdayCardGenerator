@@ -1,0 +1,89 @@
+.template1 {
+  background-image: url("../images/bdayblack.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 600px;
+  margin-top: 5px;
+  background-size: 100% 100%;
+}
+
+.template1 .transform-component-module_wrapper__1_Fgj {
+  position: relative;
+  height: 51%;
+  width: 51%;
+  left: 27.8%;
+  top: 13%;
+}
+
+.template1 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:    100% 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.template2 {
+  background-image: url("../images/bdayred.png");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 700px;
+  margin-top: 5px;
+  background-size: 100% 100%;
+}
+
+.template2 .transform-component-module_wrapper__1_Fgj {
+  position: relative;
+  height: 51%;
+  width: 51%;
+  left: 27.8%;
+  top: 13%;
+}
+
+.template2 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.template3 {
+  background-image: url("../images/bdaywhite.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 700px;
+  margin-top: 5px;
+  background-size: 100% 100%;
+}
+
+.template3 .transform-component-module_wrapper__1_Fgj {
+  border-radius: 50%;
+  position: relative;
+  height: 34.6%;
+  width: 34.7%;
+  left: 32.7%;
+  top: 19%;
+}
+.template3 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .template1 {
+    height: 390px;
+    width: 390px;
+  }
+  .template2 {
+    height: 390px;
+    width: 390px;
+  }
+  .template3 {
+    height: 390px;
+    width: 390px;
+  }
+}

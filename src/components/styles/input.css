@@ -1,0 +1,149 @@
+.form {
+  --width-of-input: 200px;
+  --border-height: 1px;
+  --border-before-color: black;
+  --border-after-color: #5891ff;
+  --input-hovered-color: #4985e01f;
+  position: relative;
+  width: var(--width-of-input);
+}
+
+.input {
+  color: black;
+  font-size: 0.9rem;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-bottom: var(--border-height) solid var(--border-before-color);
+}
+
+.input-border {
+  position: absolute;
+  background: var(--border-after-color);
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+input:hover {
+  background: var(--input-hovered-color);
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus ~ .input-border {
+  width: 100%;
+}
+
+.template1 .name {
+  font-size: 12px;
+  position: relative;
+  height: 51px;
+  width: 312px;
+  display: flex;
+  top: 65px;
+  left: 163px;
+  text-align: center;
+  line-height: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  overflow: hidden;
+
+}
+
+.template2 .name {
+  font-size: 12px;
+    position: relative;
+    height: 56px;
+    width: 368px;
+    display: flex;
+    top: 78px;
+    left: 189px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    overflow-wrap: break-word;
+    overflow: hidden;
+
+}
+
+.template3 .name {
+  font-size: 12px;
+  position: relative;
+  height: 55px;
+  width: 305px;
+  display: flex;
+  top: 137px;
+  left: 196px;
+  line-height: 19px;
+  text-align: center;
+  display: inline-block;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+.template3 .name h1 {
+  color: white;
+}
+.template1 .template2.name h1 {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .input {
+    width: 25vh;
+  }
+
+  .template1 .name {
+      font-size: 9px;
+      position: relative;
+      height: 42px;
+      width: 200px;
+      display: flex;
+      top: 38px;
+      left: 109px;
+      line-height: 13px;
+      text-align: center;
+      display: inline-block;
+      overflow-wrap: break-word;
+      overflow: hidden;
+  }
+
+  .template2 .name {
+       font-size: 9px;
+      position: relative;
+      height: 38px;
+      width: 200px;
+      display: flex;
+      top: 41px;
+      left: 109px;
+      line-height: 11px;
+      text-align: center;
+      display: inline-block;
+      overflow-wrap: break-word;
+      overflow: hidden;
+  }
+
+  .template3 .name {
+    font-size: 7px;
+    position: relative;
+    height: 38px;
+    width: 176px;
+    display: flex;
+    top: 72px;
+    left: 103px;
+    text-align: center;
+    line-height: 13px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+}
